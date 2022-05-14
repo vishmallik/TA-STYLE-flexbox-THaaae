@@ -1,0 +1,179 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*custom styles*/
+
+header{
+    background-color: rgb(22, 15, 56);
+    color: white;
+    padding: 20px 0;
+   
+}
+.links{
+    font-size: 5px;
+    margin-left: 15px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: roboto;
+    text-transform: uppercase;
+}
+.bell{
+    margin-right: 50px;
+}
+.name{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.flex2{display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    }
+.aside{
+    background-color: #adceff;
+    border-radius: 3%/1.5%;
+    width: 20%;
+    margin: 50px 0px;
+    padding: 10px 30px;
+} 
+
+.nav{
+    display:flex;
+    font-weight: 600;
+    padding: 10px 50px;
+    max-width: 100%;
+    max-height: 100%;
+    font-size: 20px;
+    font-family: roboto;
+    margin:10px 0;
+}
+.icon{
+    margin-right: 20px;
+}
+.article{
+    color: #FF7B29;
+    font-weight: 550;
+    border: 2px solid #FF7B29;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.logout{
+    margin-top: 486px;
+   background-color: white;
+   color: black;
+   border-radius: 10px;
+}
+.flex3{
+    display: flex;
+    flex-flow: column wrap;
+}
+.mainimg{
+    width: 100%;
+
+}
+h1{
+    margin: 20px 0;
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+
+}
+p{
+    line-height: 1.5;
+    font-size: 20px;
+    margin: 15px;
+
+}
+button{
+    background-color:#37B667 ;
+    width: 200px;
+    height: 70px;
+    border: #37B667;
+    border-radius: 5%/15%;
+    margin-top: 15px;
+}
+.readmore{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+section{
+    width: 70%;
+    background-color: #d9e7fc;
+    border-radius: 2%/2.5%;
+    margin: 50px 0px;
+    padding: 40px;
+}
+
+footer{
+    padding: 20px 0;
+    background-color: rgb(22, 15, 56);
+    color: rgba(255, 255, 255, 0.705);
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+.container{
+    max-width: 1700px;
+}
+.fa-brands{
+    color: rgba(240, 248, 255, 0.678);
+    padding-left: 20px;
+    font-size: 25px;
+}
+.footer{
+    font-size: 20px;
+    font-family: roboto;
+}
